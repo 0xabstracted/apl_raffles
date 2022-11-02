@@ -1,0 +1,14 @@
+[features]
+seeds = false
+[programs.devnet]
+apl_raffles = "CU43DkuZRWt6VrY4S2hDWyc7vrcN2xDnuUwybXy2TZer"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "https://metaplex.devnet.rpcpool.com/"
+wallet = "/Users/bhargavveepuri/wallets/solana/solana-wallet_linux/ryaNsMVq6FaS4oYT6gXxKsPEzGqryWmMb2PQKABsSRX.json"
+
+[scripts]
+test = "yarn run ts-mocha -p ./tsconfig.json -t 1000000 tests/**/*.ts"
